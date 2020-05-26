@@ -8,10 +8,10 @@ var risposta = document.getElementById('risposta');
 //valuto i casi
 if (punteggioGiocatore == punteggioPc ) {
   risposta.innerHTML = 'Giocatore: ' +  punteggioGiocatore + ' Computer: ' + punteggioPc +' Pareggio!';
-} else if (punteggioGiocatore >= punteggioPc) {
+} else if (punteggioGiocatore > punteggioPc) {
   risposta.innerHTML = 'Giocatore: ' +  punteggioGiocatore + ' Computer: ' + punteggioPc + ' Hai vinto!';
 
-}else if (punteggioGiocatore <= punteggioPc) {
+}else if (punteggioGiocatore < punteggioPc) {
   risposta.innerHTML = 'Giocatore: ' +  punteggioGiocatore + ' Computer: ' + punteggioPc + ' Hai perso...';
 
 }
